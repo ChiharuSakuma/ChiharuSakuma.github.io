@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix{
+	content: "";
+	clear: both;
+	display: block;
+}
+.concept{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.concept::after{
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	margin-bottom: 30px;
+	background-color: #EC715F;
+}
+.box{
+	height: 550px;
+	margin: 0 auto;
+	background-image: url(img/photo10.jpg);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align: center;
+}

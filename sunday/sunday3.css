@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.concept{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.concept::after{
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
+
+.concept-text{
+	padding-top: 100px;
+	text-align: center;
+	font-size: 150%;
+	color: brown;
+    width: 80%;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 30px;
+	background-image: url(img/photo4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+span{
+	background-color: beige;
+}
