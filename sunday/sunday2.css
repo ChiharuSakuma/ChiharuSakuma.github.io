@@ -51,7 +51,7 @@
 
 
 .pic1{
-	background-image: url("img/photo2.jpg");
+	background-image: url(img/photo2.jpg);
 }
 .pic2{
 	background-image: url(img/photo3.jpg);
